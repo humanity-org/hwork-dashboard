@@ -1,6 +1,6 @@
 /* Generates data/issues.json from GitHub Project #4 (team-platform), scoped to
-   the `humanwork` repo. READ-ONLY: it only queries the project; it never writes
-   to GitHub. Run by the scheduled GitHub Action.
+   the humanwork repo. READ-ONLY: it only queries the project; it never writes
+   to GitHub. Run on a schedule (GitHub Action or the agent's cronjob).
 
    Env:
      GH_TOKEN   - token with READ access to org projects + repo read (fine-grained PAT).
@@ -63,7 +63,7 @@ async function gql(cursor) {
     },
     body: JSON.stringify({ query: QUERY, variables: { org: ORG, number: PROJECT, cursor } }),
   });
-  if (!res.ok) throw new Error(`GraphQL HTTP ${res.status}: ${await res.text()}`);
+  if (!res.ok) throw new Error("GraphQL HTTP " + res.status + ": " + (await res.text()));
   const json = await res.json();
   if (json.errors) throw new Error("GraphQL errors: " + JSON.stringify(json.errors));
   return json.data.organization.projectV2;
@@ -80,7 +80,10 @@ function detectPriority(labels, title) {
 }
 
 function detectBlocked(labels) {
-  const set = labels.map((l) => l.toLowerCase());
+  // Normalize labels: lowercase and strip a leading "status:" prefix, so that
+  // status:blocked, blocked, blocked:legal, status:blocked:design, etc. are all
+  // treated uniformly (the team labels blockers as status:blocked).
+  const set = labels.map((l) => l.toLowerCase().replace(/^status:/, ""));
   if (set.some((l) => l === "legal-hold" || l === "legal hold")) return { blocked: true, type: "legal" };
   const b = set.find((l) => l === "blocked" || l.startsWith("blocked:"));
   if (!b) return { blocked: false };
@@ -91,6 +94,10 @@ function detectBlocked(labels) {
 function daysSince(iso) {
   if (!iso) return null;
   return Math.floor((Date.now() - new Date(iso).getTime()) / 86400000);
+}
+
+function pick(it) {
+  return { number: it.number, title: it.title, url: it.url, owner: it.owner, priority: it.priority, status: it.status };
 }
 
 async function run() {
@@ -120,7 +127,6 @@ async function run() {
     cursor = p.items.pageInfo.hasNextPage ? p.items.pageInfo.endCursor : null;
   } while (cursor);
 
-  // aggregates
   const summary = { open: raw.length, p0: 0, p1: 0, p2: 0, p3: 0 };
   const byStatus = {};
   const p0List = [], blocked = [], needsOwner = [];
@@ -153,11 +159,7 @@ async function run() {
 
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(OUT, JSON.stringify(out, null, 2));
-  console.log(`Wrote ${OUT}: ${summary.open} open, ${summary.p0} P0, ${blocked.length} blocked, ${needsOwner.length} need owner.`);
-}
-
-function pick(it) {
-  return { number: it.number, title: it.title, url: it.url, owner: it.owner, priority: it.priority, status: it.status };
+  console.log("Wrote " + OUT + ": " + summary.open + " open, " + summary.p0 + " P0, " + blocked.length + " blocked, " + needsOwner.length + " need owner.");
 }
 
 run().catch((e) => { console.error(e); process.exit(1); });
