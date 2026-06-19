@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19 06:01 UTC",
+  "generatedAt": "2026-06-19 12:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 166,
+    "open": 160,
     "p0": 5,
-    "p1": 56,
-    "p2": 55,
-    "p3": 25
+    "p1": 53,
+    "p2": 52,
+    "p3": 26
   },
   "byStatus": {
-    "In progress": 13,
+    "In progress": 18,
     "No Status": 4,
-    "Backlog": 149
+    "Backlog": 138
   },
   "p0List": [
     {
@@ -71,17 +71,9 @@
       "status": "In progress"
     },
     {
-      "number": 1435,
-      "title": "Billing: no reconciliation when Lago→app webhooks are missed (mirror drift)",
-      "url": "https://github.com/humanity-org/humanwork/issues/1435",
-      "owner": null,
-      "priority": "P2",
-      "status": "In progress"
-    },
-    {
-      "number": 2707,
-      "title": "Expert queue: unlabelled progress bars, button style inconsistency, off-spec tags",
-      "url": "https://github.com/humanity-org/humanwork/issues/2707",
+      "number": 2903,
+      "title": "Thread rename not displayed in chat window header",
+      "url": "https://github.com/humanity-org/humanwork/issues/2903",
       "owner": null,
       "priority": null,
       "status": "In progress"
