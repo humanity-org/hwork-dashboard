@@ -1,15 +1,82 @@
 {
-  "generatedAt": "seed placeholder — replaced on first Action run",
-  "project": { "org": "humanity-org", "number": 4, "title": "team-platform", "repo": "humanwork" },
-  "summary": { "open": 3, "p0": 1, "p1": 1, "p2": 1, "p3": 0 },
-  "byStatus": { "In progress": 2, "Backlog": 1 },
+  "generatedAt": "2026-06-19 03:27 UTC",
+  "project": {
+    "org": "humanity-org",
+    "number": 4,
+    "title": "team-platform",
+    "repo": "humanwork"
+  },
+  "summary": {
+    "open": 168,
+    "p0": 5,
+    "p1": 57,
+    "p2": 55,
+    "p3": 25
+  },
+  "byStatus": {
+    "In progress": 11,
+    "No Status": 4,
+    "Backlog": 153
+  },
   "p0List": [
-    { "number": 2548, "title": "[P0/PROD] Tavus 'Start call' fails — personas missing", "url": "https://github.com/humanity-org/humanwork/issues/2548", "owner": "alexkalinin", "priority": "P0", "status": "In progress" }
+    {
+      "number": 702,
+      "title": "[P0][feat] Lago billing live — Kaito subscription + invoice surface (supersedes Stripe-direct)",
+      "url": "https://github.com/humanity-org/humanwork/issues/702",
+      "owner": "AlexHumanity",
+      "priority": "P0",
+      "status": "Backlog"
+    },
+    {
+      "number": 830,
+      "title": "[P0-6] AWS Secrets Manager migration for staging + production",
+      "url": "https://github.com/humanity-org/humanwork/issues/830",
+      "owner": "grazianognoll",
+      "priority": "P0",
+      "status": "Backlog"
+    },
+    {
+      "number": 1198,
+      "title": "[P0] Kaito pre-launch UAT: platform smoke test checklist before Veena goes live",
+      "url": "https://github.com/humanity-org/humanwork/issues/1198",
+      "owner": "paulhumanity",
+      "priority": "P0",
+      "status": "In progress"
+    },
+    {
+      "number": 1228,
+      "title": "[P0][feat] Kaito KB content delivery — produce and upload the 5 launch docs (Veena day-1 playbook)",
+      "url": "https://github.com/humanity-org/humanwork/issues/1228",
+      "owner": "alex-humanity",
+      "priority": "P0",
+      "status": "Backlog"
+    },
+    {
+      "number": 2230,
+      "title": "[P0][ops][manual] ECS P99 latency check + 30-min soak — Phase 2–3 of Infrastructure-ECS-HealthCheck-test.md",
+      "url": "https://github.com/humanity-org/humanwork/issues/2230",
+      "owner": "grazianognoll",
+      "priority": "P0",
+      "status": "Backlog"
+    }
   ],
-  "blocked": [
-    { "number": 702, "title": "Lago/Stripe — Live flip + backfill", "url": "https://github.com/humanity-org/humanwork/issues/702", "owner": "alexkalinin", "priority": "P1", "status": "In progress", "blockedType": "vendor", "ageDays": 4, "slaDays": null, "ageBasis": "last-activity" }
-  ],
+  "blocked": [],
   "needsOwner": [
-    { "number": 2669, "title": "Post-Kaito hardening (Tavus/dynamic integrations)", "url": "https://github.com/humanity-org/humanwork/issues/2669", "owner": null, "priority": "P2", "status": "In progress" }
+    {
+      "number": 227,
+      "title": "[P3][docs] Document SOUL.md/skills storage upgrade path (M2 candidate)",
+      "url": "https://github.com/humanity-org/humanwork/issues/227",
+      "owner": null,
+      "priority": "P3",
+      "status": "In progress"
+    },
+    {
+      "number": 1435,
+      "title": "Billing: no reconciliation when Lago→app webhooks are missed (mirror drift)",
+      "url": "https://github.com/humanity-org/humanwork/issues/1435",
+      "owner": null,
+      "priority": "P2",
+      "status": "In progress"
+    }
   ]
 }
