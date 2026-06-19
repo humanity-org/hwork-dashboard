@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19 05:31 UTC",
+  "generatedAt": "2026-06-19 06:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -14,9 +14,9 @@
     "p3": 25
   },
   "byStatus": {
-    "In progress": 10,
+    "In progress": 13,
     "No Status": 4,
-    "Backlog": 152
+    "Backlog": 149
   },
   "p0List": [
     {
@@ -76,6 +76,14 @@
       "url": "https://github.com/humanity-org/humanwork/issues/1435",
       "owner": null,
       "priority": "P2",
+      "status": "In progress"
+    },
+    {
+      "number": 2707,
+      "title": "Expert queue: unlabelled progress bars, button style inconsistency, off-spec tags",
+      "url": "https://github.com/humanity-org/humanwork/issues/2707",
+      "owner": null,
+      "priority": null,
       "status": "In progress"
     }
   ]
