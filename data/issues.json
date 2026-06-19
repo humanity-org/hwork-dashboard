@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19 05:01 UTC",
+  "generatedAt": "2026-06-19 05:31 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,14 +7,14 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 167,
+    "open": 166,
     "p0": 5,
     "p1": 56,
     "p2": 55,
     "p3": 25
   },
   "byStatus": {
-    "In progress": 11,
+    "In progress": 10,
     "No Status": 4,
     "Backlog": 152
   },
