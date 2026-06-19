@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hwork — Project State Dashboard</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Hwork <span class="muted">/ Kaito</span></h1>
+      <p class="subtitle">Project State Dashboard</p>
+      <p class="updated" id="last-updated">Loading…</p>
+      <p class="source">
+        Source of truth:
+        <a href="https://github.com/orgs/humanity-org/projects/4" target="_blank" rel="noopener">team-platform Project #4</a>
+        · scope <code>repo:humanwork</code> · read-only
+      </p>
+    </div>
+  </header>
+
+  <!-- Non-fatal banner if data fails to load -->
+  <div id="error-banner" class="error-banner" hidden></div>
+
+  <main class="wrap">
+
+    <!-- 1. Status & priority counts -->
+    <section class="panel" id="panel-counts">
+      <h2>Live Status</h2>
+      <div class="stat-grid" id="stat-grid"><!-- JS --></div>
+      <div class="status-breakdown" id="status-breakdown"><!-- JS --></div>
+    </section>
+
+    <!-- Top P0 -->
+    <section class="panel" id="panel-p0">
+      <h2>🚨 Top P0 Issues <span class="count-pill" id="p0-count">0</span></h2>
+      <ul class="issue-list" id="p0-list"><!-- JS --></ul>
+    </section>
+
+    <!-- 2. PM lenses: Blocked & overdue -->
+    <section class="panel" id="panel-blocked">
+      <h2>⛔ Blocked &amp; Overdue <span class="count-pill" id="blocked-count">0</span></h2>
+      <p class="hint">Open <code>humanwork</code> issues labelled <code>blocked*</code> / <code>legal-hold</code>, oldest first. SLA: legal 3d · design 5d.</p>
+      <table class="data-table" id="blocked-table">
+        <thead><tr><th>Issue</th><th>Type</th><th>Owner</th><th>Age</th><th>SLA</th></tr></thead>
+        <tbody><!-- JS --></tbody>
+      </table>
+    </section>
+
+    <!-- 2. PM lenses: Needs owner -->
+    <section class="panel" id="panel-needs-owner">
+      <h2>👤 Needs Owner <span class="count-pill" id="needs-owner-count">0</span></h2>
+      <p class="hint">Active (non-backlog) open issues with no assignee. "No owner = not a real issue."</p>
+      <ul class="issue-list" id="needs-owner-list"><!-- JS --></ul>
+    </section>
+
+    <!-- 3. Launch / readiness -->
+    <section class="panel" id="panel-readiness">
+      <h2 id="readiness-title">🚀 Launch Readiness</h2>
+      <p class="updated" id="readiness-updated"></p>
+      <div class="phases" id="phases"><!-- JS --></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>Static dashboard. Presentation is fixed code; only <code>data/issues.json</code> (auto, read-only from the board) and <code>data/readiness.json</code> (curated) change.</p>
+  </footer>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>

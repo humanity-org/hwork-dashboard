@@ -1,0 +1,15 @@
+{
+  "generatedAt": "seed placeholder — replaced on first Action run",
+  "project": { "org": "humanity-org", "number": 4, "title": "team-platform", "repo": "humanwork" },
+  "summary": { "open": 3, "p0": 1, "p1": 1, "p2": 1, "p3": 0 },
+  "byStatus": { "In progress": 2, "Backlog": 1 },
+  "p0List": [
+    { "number": 2548, "title": "[P0/PROD] Tavus 'Start call' fails — personas missing", "url": "https://github.com/humanity-org/humanwork/issues/2548", "owner": "alexkalinin", "priority": "P0", "status": "In progress" }
+  ],
+  "blocked": [
+    { "number": 702, "title": "Lago/Stripe — Live flip + backfill", "url": "https://github.com/humanity-org/humanwork/issues/702", "owner": "alexkalinin", "priority": "P1", "status": "In progress", "blockedType": "vendor", "ageDays": 4, "slaDays": null, "ageBasis": "last-activity" }
+  ],
+  "needsOwner": [
+    { "number": 2669, "title": "Post-Kaito hardening (Tavus/dynamic integrations)", "url": "https://github.com/humanity-org/humanwork/issues/2669", "owner": null, "priority": "P2", "status": "In progress" }
+  ]
+}

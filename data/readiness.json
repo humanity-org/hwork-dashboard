@@ -1,0 +1,37 @@
+{
+  "title": "🚀 Kaito MVP — Launch Readiness",
+  "updated": "2026-06-17 (seed — edit me)",
+  "_note": "Curated checklist. A human or the agent edits THIS file only. The site renders it; never edit index.html. status = done | progress | blocked | todo",
+  "phases": [
+    {
+      "name": "MVP Features",
+      "summary": "Franky's Kaito MVP scope",
+      "items": [
+        { "label": "Prod environment + DNS for h.work", "status": "done" },
+        { "label": "Onboarding flow sets up Kaito fully", "status": "done" },
+        { "label": "Onboarding video call functional", "status": "done" },
+        { "label": "Slack app @mention functionality", "status": "done" },
+        { "label": "Experts see incoming Kaito messages (Experts Portal)", "status": "done" },
+        { "label": "Video calls: context in, recording + transcript out", "status": "done" },
+        { "label": "Kaito info stored securely + isolated", "status": "done" },
+        { "label": "Email + GSuite DWD for assigned specialist", "status": "progress", "owner": "Emanuele" },
+        { "label": "Webchat real-time (expert sees client msgs)", "status": "progress", "owner": "Roman" },
+        { "label": "Sandboxed agent processes msg, no autoreply", "status": "todo", "owner": "Paul (confirm)" },
+        { "label": "Accurate billing of rates invoiced", "status": "progress", "owner": "Gavin / Franky" }
+      ]
+    },
+    {
+      "name": "Launch Gates (remaining)",
+      "summary": "Not features — blockers to go-live",
+      "items": [
+        { "label": "#702 Stripe Live flip + retroactive backfill", "status": "progress", "owner": "Alex Kalinin" },
+        { "label": "#2548 Tavus 'Start call' personas script", "status": "progress", "owner": "Alex Kalinin" },
+        { "label": "#2232 HMAC prod verify — close-out", "status": "progress", "owner": "Alex Kalinin" },
+        { "label": "#2230 ECS P99 soak", "status": "todo", "owner": "Emanuele" },
+        { "label": "#830 Secrets Manager cutover + rotation runbook", "status": "todo", "owner": "Emanuele" },
+        { "label": "#1198 UAT pre-launch smoke test", "status": "todo", "owner": "Konstantin" },
+        { "label": "#1228 Kaito KB launch docs", "status": "progress", "owner": "Alex Os" }
+      ]
+    }
+  ]
+}

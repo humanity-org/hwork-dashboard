@@ -1,0 +1,6 @@
+# Test/build residue — never commit
+node_modules/
+package.json
+package-lock.json
+render-test.mjs
+.DS_Store
