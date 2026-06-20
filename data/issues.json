@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19 12:01 UTC",
+  "generatedAt": "2026-06-20 00:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,34 +7,18 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 160,
-    "p0": 5,
+    "open": 152,
+    "p0": 4,
     "p1": 53,
-    "p2": 52,
+    "p2": 49,
     "p3": 26
   },
   "byStatus": {
-    "In progress": 18,
+    "In progress": 12,
     "No Status": 4,
-    "Backlog": 138
+    "Backlog": 136
   },
   "p0List": [
-    {
-      "number": 702,
-      "title": "[P0][feat] Lago billing live — Kaito subscription + invoice surface (supersedes Stripe-direct)",
-      "url": "https://github.com/humanity-org/humanwork/issues/702",
-      "owner": "AlexHumanity",
-      "priority": "P0",
-      "status": "Backlog"
-    },
-    {
-      "number": 830,
-      "title": "[P0-6] AWS Secrets Manager migration for staging + production",
-      "url": "https://github.com/humanity-org/humanwork/issues/830",
-      "owner": "grazianognoll",
-      "priority": "P0",
-      "status": "Backlog"
-    },
     {
       "number": 1198,
       "title": "[P0] Kaito pre-launch UAT: platform smoke test checklist before Veena goes live",
@@ -58,9 +42,78 @@
       "owner": "grazianognoll",
       "priority": "P0",
       "status": "Backlog"
+    },
+    {
+      "number": 2930,
+      "title": "[P0][test] Kaito UAT smoke — full e2e coverage for all automatable items in docs/checklists/UAT - Kaito Pre-Launch Smoke Test.md",
+      "url": "https://github.com/humanity-org/humanwork/issues/2930",
+      "owner": "kostahumanity",
+      "priority": "P0",
+      "status": "Backlog"
     }
   ],
-  "blocked": [],
+  "blocked": [
+    {
+      "number": 1136,
+      "title": "[P2][feat] Wire HP SDK for credential verification when available",
+      "url": "https://github.com/humanity-org/humanwork/issues/1136",
+      "owner": null,
+      "priority": "P2",
+      "status": "Backlog",
+      "blockedType": "blocked",
+      "ageDays": 20,
+      "slaDays": null,
+      "ageBasis": "last-activity"
+    },
+    {
+      "number": 648,
+      "title": "KB Generation Service: Export HumanWork Client Data to Tavus Knowledge Base",
+      "url": "https://github.com/humanity-org/humanwork/issues/648",
+      "owner": null,
+      "priority": "P2",
+      "status": "Backlog",
+      "blockedType": "blocked",
+      "ageDays": 17,
+      "slaDays": null,
+      "ageBasis": "last-activity"
+    },
+    {
+      "number": 684,
+      "title": "[P2][ops] Workspace tenant ↔ DB reconciliation job (drift detector + repair)",
+      "url": "https://github.com/humanity-org/humanwork/issues/684",
+      "owner": "grazianognoll",
+      "priority": "P2",
+      "status": "Backlog",
+      "blockedType": "blocked",
+      "ageDays": 16,
+      "slaDays": null,
+      "ageBasis": "last-activity"
+    },
+    {
+      "number": 689,
+      "title": "[P2][feat] Agent runtime MCP tools — Gmail/Drive/Calendar for Specialist mailbox",
+      "url": "https://github.com/humanity-org/humanwork/issues/689",
+      "owner": "grazianognoll",
+      "priority": "P2",
+      "status": "Backlog",
+      "blockedType": "blocked",
+      "ageDays": 16,
+      "slaDays": null,
+      "ageBasis": "last-activity"
+    },
+    {
+      "number": 174,
+      "title": "[P3][feat] Auth enhancements — HP SDK identity verification, OAuth/SSO",
+      "url": "https://github.com/humanity-org/humanwork/issues/174",
+      "owner": "ethumanity",
+      "priority": "P3",
+      "status": "No Status",
+      "blockedType": "blocked",
+      "ageDays": 4,
+      "slaDays": null,
+      "ageBasis": "last-activity"
+    }
+  ],
   "needsOwner": [
     {
       "number": 227,
@@ -68,14 +121,6 @@
       "url": "https://github.com/humanity-org/humanwork/issues/227",
       "owner": null,
       "priority": "P3",
-      "status": "In progress"
-    },
-    {
-      "number": 2903,
-      "title": "Thread rename not displayed in chat window header",
-      "url": "https://github.com/humanity-org/humanwork/issues/2903",
-      "owner": null,
-      "priority": null,
       "status": "In progress"
     }
   ]
