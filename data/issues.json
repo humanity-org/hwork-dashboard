@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21 00:00 UTC",
+  "generatedAt": "2026-06-21 12:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 131,
+    "open": 123,
     "p0": 3,
-    "p1": 37,
+    "p1": 30,
     "p2": 49,
     "p3": 26
   },
   "byStatus": {
-    "In progress": 15,
+    "In progress": 13,
     "No Status": 4,
-    "Backlog": 112
+    "Backlog": 106
   },
   "p0List": [
     {
@@ -53,7 +53,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 21,
+      "ageDays": 22,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -65,7 +65,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 18,
+      "ageDays": 19,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -77,7 +77,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 17,
+      "ageDays": 18,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -89,7 +89,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 17,
+      "ageDays": 18,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -101,7 +101,7 @@
       "priority": "P3",
       "status": "No Status",
       "blockedType": "blocked",
-      "ageDays": 5,
+      "ageDays": 6,
       "slaDays": null,
       "ageBasis": "last-activity"
     }
