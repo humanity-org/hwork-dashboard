@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22 00:00 UTC",
+  "generatedAt": "2026-06-22 12:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 123,
+    "open": 128,
     "p0": 3,
-    "p1": 30,
-    "p2": 49,
-    "p3": 26
+    "p1": 31,
+    "p2": 51,
+    "p3": 29
   },
   "byStatus": {
-    "In progress": 13,
+    "In progress": 14,
     "No Status": 4,
-    "Backlog": 106
+    "Backlog": 110
   },
   "p0List": [
     {
@@ -53,7 +53,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 22,
+      "ageDays": 23,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -65,7 +65,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 19,
+      "ageDays": 20,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -77,19 +77,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 18,
-      "slaDays": null,
-      "ageBasis": "last-activity"
-    },
-    {
-      "number": 689,
-      "title": "[P2][feat] Agent runtime MCP tools — Gmail/Drive/Calendar for Specialist mailbox",
-      "url": "https://github.com/humanity-org/humanwork/issues/689",
-      "owner": "grazianognoll",
-      "priority": "P2",
-      "status": "Backlog",
-      "blockedType": "blocked",
-      "ageDays": 18,
+      "ageDays": 19,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -101,7 +89,7 @@
       "priority": "P3",
       "status": "No Status",
       "blockedType": "blocked",
-      "ageDays": 6,
+      "ageDays": 7,
       "slaDays": null,
       "ageBasis": "last-activity"
     }
@@ -113,6 +101,14 @@
       "url": "https://github.com/humanity-org/humanwork/issues/227",
       "owner": null,
       "priority": "P3",
+      "status": "In progress"
+    },
+    {
+      "number": 3018,
+      "title": "BUG: Visiting dev.h852.work/login redirects to workspace subdomain if previous client session exists",
+      "url": "https://github.com/humanity-org/humanwork/issues/3018",
+      "owner": null,
+      "priority": null,
       "status": "In progress"
     }
   ]
