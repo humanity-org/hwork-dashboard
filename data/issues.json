@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23 00:01 UTC",
+  "generatedAt": "2026-06-23 12:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 121,
+    "open": 110,
     "p0": 2,
-    "p1": 27,
-    "p2": 51,
-    "p3": 29
+    "p1": 24,
+    "p2": 44,
+    "p3": 23
   },
   "byStatus": {
     "In progress": 12,
     "No Status": 4,
-    "Backlog": 105
+    "Backlog": 94
   },
   "p0List": [
     {
@@ -38,30 +38,6 @@
   ],
   "blocked": [
     {
-      "number": 1136,
-      "title": "[P2][feat] Wire HP SDK for credential verification when available",
-      "url": "https://github.com/humanity-org/humanwork/issues/1136",
-      "owner": null,
-      "priority": "P2",
-      "status": "Backlog",
-      "blockedType": "blocked",
-      "ageDays": 23,
-      "slaDays": null,
-      "ageBasis": "last-activity"
-    },
-    {
-      "number": 648,
-      "title": "KB Generation Service: Export HumanWork Client Data to Tavus Knowledge Base",
-      "url": "https://github.com/humanity-org/humanwork/issues/648",
-      "owner": null,
-      "priority": "P2",
-      "status": "Backlog",
-      "blockedType": "blocked",
-      "ageDays": 20,
-      "slaDays": null,
-      "ageBasis": "last-activity"
-    },
-    {
       "number": 684,
       "title": "[P2][ops] Workspace tenant ↔ DB reconciliation job (drift detector + repair)",
       "url": "https://github.com/humanity-org/humanwork/issues/684",
@@ -69,7 +45,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 19,
+      "ageDays": 20,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -81,18 +57,38 @@
       "priority": "P3",
       "status": "No Status",
       "blockedType": "blocked",
-      "ageDays": 7,
+      "ageDays": 8,
+      "slaDays": null,
+      "ageBasis": "last-activity"
+    },
+    {
+      "number": 1136,
+      "title": "[P2][feat] Wire HP SDK for credential verification when available",
+      "url": "https://github.com/humanity-org/humanwork/issues/1136",
+      "owner": "paulhumanity",
+      "priority": "P2",
+      "status": "Backlog",
+      "blockedType": "blocked",
+      "ageDays": 0,
       "slaDays": null,
       "ageBasis": "last-activity"
     }
   ],
   "needsOwner": [
     {
-      "number": 227,
-      "title": "[P3][docs] Document SOUL.md/skills storage upgrade path (M2 candidate)",
-      "url": "https://github.com/humanity-org/humanwork/issues/227",
+      "number": 3004,
+      "title": "[Bug] Leads page (/ops/leads) stuck on skeleton loaders — leads API returns 404",
+      "url": "https://github.com/humanity-org/humanwork/issues/3004",
       "owner": null,
-      "priority": "P3",
+      "priority": "P1",
+      "status": "In progress"
+    },
+    {
+      "number": 3101,
+      "title": "Cut email subject and email footer from the message sent from a client to a specialist",
+      "url": "https://github.com/humanity-org/humanwork/issues/3101",
+      "owner": null,
+      "priority": "P2",
       "status": "In progress"
     }
   ]
