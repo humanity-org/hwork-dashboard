@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22 12:01 UTC",
+  "generatedAt": "2026-06-23 00:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 128,
-    "p0": 3,
-    "p1": 31,
+    "open": 121,
+    "p0": 2,
+    "p1": 27,
     "p2": 51,
     "p3": 29
   },
   "byStatus": {
-    "In progress": 14,
+    "In progress": 12,
     "No Status": 4,
-    "Backlog": 110
+    "Backlog": 105
   },
   "p0List": [
     {
@@ -26,14 +26,6 @@
       "owner": "paulhumanity",
       "priority": "P0",
       "status": "In progress"
-    },
-    {
-      "number": 1228,
-      "title": "[P0][feat] Kaito KB content delivery — produce and upload the 5 launch docs (Veena day-1 playbook)",
-      "url": "https://github.com/humanity-org/humanwork/issues/1228",
-      "owner": "alex-humanity",
-      "priority": "P0",
-      "status": "Backlog"
     },
     {
       "number": 2930,
@@ -101,14 +93,6 @@
       "url": "https://github.com/humanity-org/humanwork/issues/227",
       "owner": null,
       "priority": "P3",
-      "status": "In progress"
-    },
-    {
-      "number": 3018,
-      "title": "BUG: Visiting dev.h852.work/login redirects to workspace subdomain if previous client session exists",
-      "url": "https://github.com/humanity-org/humanwork/issues/3018",
-      "owner": null,
-      "priority": null,
       "status": "In progress"
     }
   ]
