@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23 12:01 UTC",
+  "generatedAt": "2026-06-24 00:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 110,
+    "open": 89,
     "p0": 2,
-    "p1": 24,
-    "p2": 44,
+    "p1": 5,
+    "p2": 45,
     "p3": 23
   },
   "byStatus": {
-    "In progress": 12,
+    "In progress": 11,
     "No Status": 4,
-    "Backlog": 94
+    "Backlog": 74
   },
   "p0List": [
     {
@@ -33,7 +33,7 @@
       "url": "https://github.com/humanity-org/humanwork/issues/2930",
       "owner": "kostahumanity",
       "priority": "P0",
-      "status": "Backlog"
+      "status": "In progress"
     }
   ],
   "blocked": [
@@ -74,22 +74,5 @@
       "ageBasis": "last-activity"
     }
   ],
-  "needsOwner": [
-    {
-      "number": 3004,
-      "title": "[Bug] Leads page (/ops/leads) stuck on skeleton loaders — leads API returns 404",
-      "url": "https://github.com/humanity-org/humanwork/issues/3004",
-      "owner": null,
-      "priority": "P1",
-      "status": "In progress"
-    },
-    {
-      "number": 3101,
-      "title": "Cut email subject and email footer from the message sent from a client to a specialist",
-      "url": "https://github.com/humanity-org/humanwork/issues/3101",
-      "owner": null,
-      "priority": "P2",
-      "status": "In progress"
-    }
-  ]
+  "needsOwner": []
 }
