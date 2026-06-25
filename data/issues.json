@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25 00:01 UTC",
+  "generatedAt": "2026-06-25 12:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -8,15 +8,15 @@
   },
   "summary": {
     "open": 95,
-    "p0": 9,
-    "p1": 14,
-    "p2": 44,
-    "p3": 20
+    "p0": 7,
+    "p1": 13,
+    "p2": 45,
+    "p3": 21
   },
   "byStatus": {
-    "In progress": 11,
+    "In progress": 8,
     "No Status": 4,
-    "Backlog": 80
+    "Backlog": 83
   },
   "p0List": [
     {
@@ -28,18 +28,10 @@
       "status": "In progress"
     },
     {
-      "number": 2930,
-      "title": "[P0][test] Kaito UAT smoke — full e2e coverage for all automatable items in docs/checklists/UAT - Kaito Pre-Launch Smoke Test.md",
-      "url": "https://github.com/humanity-org/humanwork/issues/2930",
-      "owner": "kostahumanity",
-      "priority": "P0",
-      "status": "In progress"
-    },
-    {
       "number": 3208,
       "title": "[Mobile] Implement Bottom Sheet Thread List for Client Chat",
       "url": "https://github.com/humanity-org/humanwork/issues/3208",
-      "owner": null,
+      "owner": "romanhumanity",
       "priority": "P0",
       "status": "Backlog"
     },
@@ -47,7 +39,7 @@
       "number": 3210,
       "title": "[Mobile] Implement Full-Width Chat Layout with Back Navigation",
       "url": "https://github.com/humanity-org/humanwork/issues/3210",
-      "owner": null,
+      "owner": "romanhumanity",
       "priority": "P0",
       "status": "Backlog"
     },
@@ -55,15 +47,7 @@
       "number": 3211,
       "title": "[Mobile] Increase Touch Targets to 44px Minimum",
       "url": "https://github.com/humanity-org/humanwork/issues/3211",
-      "owner": null,
-      "priority": "P0",
-      "status": "Backlog"
-    },
-    {
-      "number": 3215,
-      "title": "[Mobile] Add Safe Area Insets for iPhone Notch/Dynamic Island",
-      "url": "https://github.com/humanity-org/humanwork/issues/3215",
-      "owner": null,
+      "owner": "romanhumanity",
       "priority": "P0",
       "status": "Backlog"
     },
@@ -71,7 +55,7 @@
       "number": 3217,
       "title": "[Mobile] Handle Virtual Keyboard Push Behavior",
       "url": "https://github.com/humanity-org/humanwork/issues/3217",
-      "owner": null,
+      "owner": "romanhumanity",
       "priority": "P0",
       "status": "Backlog"
     },
@@ -79,7 +63,7 @@
       "number": 3221,
       "title": "[Mobile] Testing Strategy & Implementation",
       "url": "https://github.com/humanity-org/humanwork/issues/3221",
-      "owner": null,
+      "owner": "romanhumanity",
       "priority": "P0",
       "status": "Backlog"
     },
@@ -87,7 +71,7 @@
       "number": 3223,
       "title": "[Mobile] Add Orientation-Aware Layout for Landscape Phones",
       "url": "https://github.com/humanity-org/humanwork/issues/3223",
-      "owner": null,
+      "owner": "romanhumanity",
       "priority": "P0",
       "status": "Backlog"
     }
@@ -101,7 +85,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 21,
+      "ageDays": 22,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -113,7 +97,7 @@
       "priority": "P3",
       "status": "No Status",
       "blockedType": "blocked",
-      "ageDays": 9,
+      "ageDays": 10,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -125,10 +109,19 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 1,
+      "ageDays": 2,
       "slaDays": null,
       "ageBasis": "last-activity"
     }
   ],
-  "needsOwner": []
+  "needsOwner": [
+    {
+      "number": 1135,
+      "title": "[P3][feat] Per-specialist `client_brief` overlay — role-specific onboarding capture",
+      "url": "https://github.com/humanity-org/humanwork/issues/1135",
+      "owner": null,
+      "priority": "P3",
+      "status": "In progress"
+    }
+  ]
 }
