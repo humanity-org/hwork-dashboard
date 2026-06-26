@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25 12:01 UTC",
+  "generatedAt": "2026-06-26 00:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 95,
-    "p0": 7,
-    "p1": 13,
+    "open": 89,
+    "p0": 1,
+    "p1": 12,
     "p2": 45,
     "p3": 21
   },
   "byStatus": {
-    "In progress": 8,
+    "In progress": 11,
     "No Status": 4,
-    "Backlog": 83
+    "Backlog": 74
   },
   "p0List": [
     {
@@ -26,54 +26,6 @@
       "owner": "paulhumanity",
       "priority": "P0",
       "status": "In progress"
-    },
-    {
-      "number": 3208,
-      "title": "[Mobile] Implement Bottom Sheet Thread List for Client Chat",
-      "url": "https://github.com/humanity-org/humanwork/issues/3208",
-      "owner": "romanhumanity",
-      "priority": "P0",
-      "status": "Backlog"
-    },
-    {
-      "number": 3210,
-      "title": "[Mobile] Implement Full-Width Chat Layout with Back Navigation",
-      "url": "https://github.com/humanity-org/humanwork/issues/3210",
-      "owner": "romanhumanity",
-      "priority": "P0",
-      "status": "Backlog"
-    },
-    {
-      "number": 3211,
-      "title": "[Mobile] Increase Touch Targets to 44px Minimum",
-      "url": "https://github.com/humanity-org/humanwork/issues/3211",
-      "owner": "romanhumanity",
-      "priority": "P0",
-      "status": "Backlog"
-    },
-    {
-      "number": 3217,
-      "title": "[Mobile] Handle Virtual Keyboard Push Behavior",
-      "url": "https://github.com/humanity-org/humanwork/issues/3217",
-      "owner": "romanhumanity",
-      "priority": "P0",
-      "status": "Backlog"
-    },
-    {
-      "number": 3221,
-      "title": "[Mobile] Testing Strategy & Implementation",
-      "url": "https://github.com/humanity-org/humanwork/issues/3221",
-      "owner": "romanhumanity",
-      "priority": "P0",
-      "status": "Backlog"
-    },
-    {
-      "number": 3223,
-      "title": "[Mobile] Add Orientation-Aware Layout for Landscape Phones",
-      "url": "https://github.com/humanity-org/humanwork/issues/3223",
-      "owner": "romanhumanity",
-      "priority": "P0",
-      "status": "Backlog"
     }
   ],
   "blocked": [
