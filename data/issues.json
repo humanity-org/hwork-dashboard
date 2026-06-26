@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26 00:01 UTC",
+  "generatedAt": "2026-06-26 12:30 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 89,
-    "p0": 1,
+    "open": 72,
+    "p0": 2,
     "p1": 12,
-    "p2": 45,
-    "p3": 21
+    "p2": 37,
+    "p3": 15
   },
   "byStatus": {
-    "In progress": 11,
+    "In progress": 10,
     "No Status": 4,
-    "Backlog": 74
+    "Backlog": 58
   },
   "p0List": [
     {
@@ -26,6 +26,14 @@
       "owner": "paulhumanity",
       "priority": "P0",
       "status": "In progress"
+    },
+    {
+      "number": 3323,
+      "title": "feat(learning): capture Expert edit-diff signal in releaseDraft (ADR-033 P0)",
+      "url": "https://github.com/humanity-org/humanwork/issues/3323",
+      "owner": "stoneton",
+      "priority": "P0",
+      "status": "Backlog"
     }
   ],
   "blocked": [
@@ -37,7 +45,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 22,
+      "ageDays": 23,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -49,19 +57,7 @@
       "priority": "P3",
       "status": "No Status",
       "blockedType": "blocked",
-      "ageDays": 10,
-      "slaDays": null,
-      "ageBasis": "last-activity"
-    },
-    {
-      "number": 1136,
-      "title": "[P2][feat] Wire HP SDK for credential verification when available",
-      "url": "https://github.com/humanity-org/humanwork/issues/1136",
-      "owner": "paulhumanity",
-      "priority": "P2",
-      "status": "Backlog",
-      "blockedType": "blocked",
-      "ageDays": 2,
+      "ageDays": 11,
       "slaDays": null,
       "ageBasis": "last-activity"
     }
