@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26 12:30 UTC",
+  "generatedAt": "2026-06-27 00:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 72,
+    "open": 71,
     "p0": 2,
-    "p1": 12,
+    "p1": 10,
     "p2": 37,
-    "p3": 15
+    "p3": 16
   },
   "byStatus": {
-    "In progress": 10,
+    "In progress": 11,
     "No Status": 4,
-    "Backlog": 58
+    "Backlog": 56
   },
   "p0List": [
     {
@@ -53,11 +53,11 @@
       "number": 174,
       "title": "[P3][feat] Auth enhancements — HP SDK identity verification, OAuth/SSO",
       "url": "https://github.com/humanity-org/humanwork/issues/174",
-      "owner": "ethumanity",
+      "owner": "andrei-humanity",
       "priority": "P3",
       "status": "No Status",
       "blockedType": "blocked",
-      "ageDays": 11,
+      "ageDays": 0,
       "slaDays": null,
       "ageBasis": "last-activity"
     }
@@ -67,6 +67,14 @@
       "number": 1135,
       "title": "[P3][feat] Per-specialist `client_brief` overlay — role-specific onboarding capture",
       "url": "https://github.com/humanity-org/humanwork/issues/1135",
+      "owner": null,
+      "priority": "P3",
+      "status": "In progress"
+    },
+    {
+      "number": 3360,
+      "title": "[Bug] Client conversation API still serializes internal field keys (isInternal, heldForReview, failureReason, failureCode) to org clients",
+      "url": "https://github.com/humanity-org/humanwork/issues/3360",
       "owner": null,
       "priority": "P3",
       "status": "In progress"
