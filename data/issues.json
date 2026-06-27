@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27 00:01 UTC",
+  "generatedAt": "2026-06-27 12:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 71,
+    "open": 68,
     "p0": 2,
     "p1": 10,
-    "p2": 37,
-    "p3": 16
+    "p2": 36,
+    "p3": 14
   },
   "byStatus": {
-    "In progress": 11,
     "No Status": 4,
-    "Backlog": 56
+    "Backlog": 55,
+    "In progress": 9
   },
   "p0List": [
     {
@@ -45,7 +45,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 23,
+      "ageDays": 24,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
@@ -67,14 +67,6 @@
       "number": 1135,
       "title": "[P3][feat] Per-specialist `client_brief` overlay — role-specific onboarding capture",
       "url": "https://github.com/humanity-org/humanwork/issues/1135",
-      "owner": null,
-      "priority": "P3",
-      "status": "In progress"
-    },
-    {
-      "number": 3360,
-      "title": "[Bug] Client conversation API still serializes internal field keys (isInternal, heldForReview, failureReason, failureCode) to org clients",
-      "url": "https://github.com/humanity-org/humanwork/issues/3360",
       "owner": null,
       "priority": "P3",
       "status": "In progress"
