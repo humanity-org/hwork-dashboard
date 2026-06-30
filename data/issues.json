@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30 00:01 UTC",
+  "generatedAt": "2026-06-30 12:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 107,
-    "p0": 2,
-    "p1": 9,
-    "p2": 45,
-    "p3": 21
+    "open": 76,
+    "p0": 4,
+    "p1": 11,
+    "p2": 30,
+    "p3": 10
   },
   "byStatus": {
     "No Status": 4,
-    "Backlog": 96,
-    "In progress": 7
+    "Backlog": 64,
+    "In progress": 8
   },
   "p0List": [
     {
@@ -34,6 +34,22 @@
       "owner": "stoneton",
       "priority": "P0",
       "status": "Backlog"
+    },
+    {
+      "number": 3507,
+      "title": "Send onboarding-call prompt to Terence for review",
+      "url": "https://github.com/humanity-org/humanwork/issues/3507",
+      "owner": "percy-blip",
+      "priority": "P0",
+      "status": "Backlog"
+    },
+    {
+      "number": 3585,
+      "title": "[P0] Cut API CI time: shard the serial coverage gate (~33min critical path)",
+      "url": "https://github.com/humanity-org/humanwork/issues/3585",
+      "owner": null,
+      "priority": "P0",
+      "status": "Backlog"
     }
   ],
   "blocked": [
@@ -45,7 +61,7 @@
       "priority": "P2",
       "status": "Backlog",
       "blockedType": "blocked",
-      "ageDays": 26,
+      "ageDays": 27,
       "slaDays": null,
       "ageBasis": "last-activity"
     },
