@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29 12:01 UTC",
+  "generatedAt": "2026-06-30 00:01 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 80,
+    "open": 107,
     "p0": 2,
-    "p1": 10,
-    "p2": 44,
-    "p3": 17
+    "p1": 9,
+    "p2": 45,
+    "p3": 21
   },
   "byStatus": {
     "No Status": 4,
-    "Backlog": 67,
-    "In progress": 9
+    "Backlog": 96,
+    "In progress": 7
   },
   "p0List": [
     {
@@ -57,7 +57,7 @@
       "priority": "P3",
       "status": "No Status",
       "blockedType": "blocked",
-      "ageDays": 2,
+      "ageDays": 3,
       "slaDays": null,
       "ageBasis": "last-activity"
     }
