@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30 12:01 UTC",
+  "generatedAt": "2026-07-01 00:00 UTC",
   "project": {
     "org": "humanity-org",
     "number": 4,
@@ -7,16 +7,16 @@
     "repo": "humanwork"
   },
   "summary": {
-    "open": 76,
-    "p0": 4,
-    "p1": 11,
+    "open": 69,
+    "p0": 3,
+    "p1": 8,
     "p2": 30,
     "p3": 10
   },
   "byStatus": {
     "No Status": 4,
-    "Backlog": 64,
-    "In progress": 8
+    "Backlog": 58,
+    "In progress": 7
   },
   "p0List": [
     {
@@ -42,14 +42,6 @@
       "owner": "percy-blip",
       "priority": "P0",
       "status": "Backlog"
-    },
-    {
-      "number": 3585,
-      "title": "[P0] Cut API CI time: shard the serial coverage gate (~33min critical path)",
-      "url": "https://github.com/humanity-org/humanwork/issues/3585",
-      "owner": null,
-      "priority": "P0",
-      "status": "Backlog"
     }
   ],
   "blocked": [
@@ -73,7 +65,7 @@
       "priority": "P3",
       "status": "No Status",
       "blockedType": "blocked",
-      "ageDays": 3,
+      "ageDays": 4,
       "slaDays": null,
       "ageBasis": "last-activity"
     }
